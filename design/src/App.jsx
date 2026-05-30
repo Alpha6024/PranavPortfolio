@@ -181,7 +181,7 @@ export default function App() {
     <div className="overflow-hidden">
       <div className="h-full w-full font-anton bg-white">
 
-        <div className="hidden lg:block bg-[#282D2A] h-[90vh] fixed left-0 top-0 z-10 w-[25vw]"></div>
+        <div className="hidden lg:block bg-[#282D2A] h-[100vh] fixed left-0 top-0 z-10 w-[25vw]"></div>
 
         <div className="fixed top-0 left-0 right-0 z-30 flex justify-between items-center px-4 lg:px-0 bg-white/70 lg:bg-white/10 backdrop-blur-md">
           <div className="h-[12vh] w-auto flex items-center justify-center">
@@ -236,7 +236,7 @@ export default function App() {
 
         {/* ── HOME section ── */}
         <div ref={homeRef} className="flex flex-col lg:flex-row lg:justify-end font-anton lg:h-[88vh]">
-          <div className="relative z-20 bg-[url('/news.png')] bg-cover bg-center w-full lg:w-[33vw] h-[55vh] lg:h-[60vh] lg:mt-[4%] font-anton text-left pt-[17vh] pl-8 lg:pl-12">
+          <div className="relative z-20 bg-[url('/news.png')] bg-cover bg-center w-full lg:w-[37vw] h-[55vh] lg:h-[60vh] lg:mt-[4%] font-anton text-left pt-[17vh] pl-8 lg:pl-12">
             <div className="text-black text-base lg:text-lg">Hey I'm a</div>
             <div className="text-[#FF3D00] font-bold text-5xl lg:text-6xl leading-tight">FULL-STACK</div>
             <div className="text-[#FF3D00] text-5xl lg:text-6xl leading-tight">DEVELOPER</div>
@@ -259,7 +259,7 @@ export default function App() {
         {/* ── ABOUT ME section ── */}
         <div ref={aboutRef} className="w-full flex flex-col lg:flex-row">
           <div className="w-full lg:w-[35vw] lg:h-[98vh] flex flex-col items-center justify-center py-8 lg:py-0">
-            <div className="h-[40vh] w-[70vw] lg:h-[60vh] lg:w-[24vw] bg-[url('/img4.jpg')] bg-cover bg-center"></div>
+            <div className="h-[40vh] w-[70vw] lg:h-[60vh] lg:w-[27vw] bg-[url('/img4.jpg')] bg-cover bg-center"></div>
             <div className=" w-[70vw] lg:w-[26vw] rounded-3xl font-anton bg-black text-white flex flex-col justify-center items-center py-4">
               <div className="w-[50vw] lg:w-[15vw] text-sm lg:text-base">about me</div>
               <div className="text-xl lg:text-2xl w-[50vw] lg:w-[15vw]">Who is <p className="text-[#FF3D00]">PRANAV BORKAR ?</p></div>
