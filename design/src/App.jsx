@@ -519,10 +519,10 @@ export default function App() {
   </div>
 </div>
 
-<div className="w-full font-anton bg-white relative z-20 overflow-hidden h-[16vh] lg:h-[40vh]">
+<div className="w-full font-anton bg-white relative z-20 overflow-hidden h-[14vh] lg:h-[30vh]">
   <div className="hidden lg:block h-[10vh] bg-white"></div>
   <div className="h-[6vh] flex justify-center items-center text-[#FF3D00] text-2xl lg:text-4xl">SAY HI</div>
-  <div className="flex justify-center text-black items-center whitespace-nowrap text-[5rem] sm:text-[7rem] lg:text-[12rem] leading-none">I DON'T BITE</div>
+  <div className="flex justify-center text-black items-center whitespace-nowrap text-[4rem] sm:text-[7rem] lg:text-[12rem] leading-none">I DON'T BITE</div>
 </div>
         </div>
     </>
